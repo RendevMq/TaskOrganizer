@@ -38,7 +38,7 @@ export const Redirect = () => {
 			<span className={styles.title}>
 				<img src={myDashboardIcon} alt='MyDashboard-icon' />
 				<h1 className={styles.titleText}>
-					Welcome to <span>YourDashboard</span>
+					Welcome to <span>Your TaskOrganizer</span>
 				</h1>
 			</span>
 			<p>We are putting everything in place.</p>
