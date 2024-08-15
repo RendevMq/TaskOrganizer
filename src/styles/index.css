@@ -1,0 +1,113 @@
+@import './normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+*  {
+    font-family: 'Rubik', sans-serif;
+}
+
+:root {
+
+    /* Colors */
+    --primary: #80949F;
+    --secondary-blue: #70ADB7;
+    --secondary-aqua: #63C7BC;
+    --secondary-aqua-green: #7ADDAB;
+    --secondary-green: #B1EF8E;
+    --secondary-yellow: #F9F871;
+
+    --gradient: linear-gradient(to right, #63C7BC, #B1EF8E);
+    --error: #F97171;
+
+    /* Tones */
+    --white: #E2E7E9;
+    --white-75: rgba(226, 231, 233, 0.75);
+    --white-50: rgba(226, 231, 233, 0.50);
+    --white-25: rgba(226, 231, 233, 0.25);
+    --white-10: rgba(226, 231, 233, 0.10);
+    --white-5: rgba(226, 231, 233, 0.05);
+
+    --black: #161B1D;
+    --black-75: rgba(22, 27, 29, 0.75);
+    --black-50: rgba(22, 27, 29, 0.50);
+    --black-25: rgba(22, 27, 29, 0.25);
+    --black-10: rgba(22, 27, 29, 0.10);
+    --black-5: rgba(22, 27, 29, 0.05);
+
+    /* Paragraphs */
+    --paragraph: 1rem;
+    --paragraph-small: 0.875rem;
+
+    /* Animations */
+    --transition-config: all 0.2s ease-in-out;
+    --btn-grow: scale(1.05);
+}
+
+p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+
+    color: var(--white);
+}
+
+h1 {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    
+    color: var(--white);
+}
+
+h2 {
+    font-size: 1.8125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    
+    color: var(--white);
+}
+
+h3 {
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+
+    color: var(--white);
+}
+
+h4 {
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+
+    color: var(--white);
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+
+    color: var(--white);
+}
+
+h6 {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+
+    color: var(--white);
+}
