@@ -14,7 +14,7 @@ export const Home = () => {
 			<section className={styles.mainContent}>
 				<span className={styles.title}>
 					<img src={myDashboardIcon} alt='MyDashboard-icon' />
-					<h1>MyDashboard</h1>
+					<h1>Task Organizer</h1>
 				</span>
 				<h6 className={styles.slogan}>Your lifee, in order.</h6>
 				<button className={styles.getStartedBtn} onClick={handleClick}>

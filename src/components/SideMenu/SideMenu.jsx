@@ -69,7 +69,7 @@ export const SideMenu = () => {
 
 					<div className={styles.title}>
 						<img src={MyDashboardGradient} alt='MyDashboard-icon' />
-						<h3>MyDashboard</h3>
+						<h3>TaskOrganizer</h3>
 					</div>
 
 					<div className={styles.menuLinks}>

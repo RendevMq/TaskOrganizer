@@ -57,7 +57,7 @@ export const Login = () => {
 			<form className={styles.form}>
 				<div className={styles.title}>
 					<img src={myDashboardIcon} alt='MyDashboard-icon' />
-					<h1>Login to MyDashboard</h1>
+					<h1>Login to TaskOrganizer</h1>
 				</div>
 				<button type = "button" onClick={goToRedicrect} className={styles.navigatee}>Access Without Logging In</button>
 
