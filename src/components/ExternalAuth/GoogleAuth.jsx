@@ -9,7 +9,8 @@ export const GoogleAuth = () => {
   return (
     <button
         className={styles.googleLogin}
-        onClick = {() => navigate("#")}>
+        // onClick = {() => navigate("#")}>
+        >
         <img src={GoogleIcon} alt='Google-icon' />
         <p>Sign in with Google</p>
     </button>
