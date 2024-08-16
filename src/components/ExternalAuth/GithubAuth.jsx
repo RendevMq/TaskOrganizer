@@ -12,7 +12,7 @@ export const GithubAuth = () => {
   return (
     <button
         className={styles.googleLogin}
-        onClick>
+        onClick = {() => navigate("#")}>
         <img src={GithubIcon} alt='Google-icon' />
         <p>Sign in with Github</p>
     </button>
